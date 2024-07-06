@@ -1,0 +1,33 @@
+## Built With
+
+* [C++](http://www.cplusplus.com/)
+
+## Author
+
+* **Arshit(Roll no-220209)** 
+
+## Car Rental System Readme
+## Car condition
+- integer value ranging from 0 to 10(depecting condition)
+## Customer record
+- By default value 10
+- value decreases if customer fails to return car on time
+- value decreases if car condition is worse than when rented
+## Employee record
+- By default value 10
+- value decreases if employee fails to return car on time
+- value decreases if car condition is worse than when rented
+## Car rental system
+- An employee or a customer cannot rent a car if his or her record is less than 6
+- Rent charged per day
+- If employee or customer fails to return car on due date then fine equal to 1.25 times normal rent charges per day(including normal rent charges)
+## Datbase_file
+- customer_database contains name, id, password, customer record and customer dues
+- employee_database contains name, id, password, employee record and employee dues
+- car_database contains car_model, condition, rent charge per day, rented_status, due date, due month and due year
+- id database contains the info about last id issued to customer or employee
+**Program Exit:**
+- Please ensure to exit the program properly before running it again to prevent potential crashes.
+**Contact:**
+- For any queries, please contact me at: 
+  - Email: arshitsk22@iitk.ac.in
